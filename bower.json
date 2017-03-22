@@ -1,0 +1,20 @@
+{
+  "name": "visual-trades",
+  "description": "",
+  "main": "./public/index.html",
+  "authors": [
+    "Tzach Klo"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

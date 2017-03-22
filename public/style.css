@@ -1,0 +1,38 @@
+body{
+  background:#222222;
+}
+
+svg{
+  background:url('images/world.jpg');
+  background-size: cover;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+path{
+    -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  stroke-linecap: round;
+  fill:none;
+  fill-rule: nonzero;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-width: 5;
+  stroke-linejoin: round;
+}
+
+.area{
+  fill: rgba(5, 27, 56, 0.45);
+  stroke: none;
+}
+
+circle{
+    -webkit-transition: all 0.08s linear;
+  -moz-transition: all 0.08s linear;
+  -o-transition: all 0.08s linear;
+  transition: all 0.08s linear;
+}
